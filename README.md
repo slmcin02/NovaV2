@@ -6,12 +6,27 @@ Nova is a founder-built persistent AI system designed to carry context, evidence
 
 Finance is Nova's first hard proving ground because it forces the system to operate around noisy evidence, explicit risk, conflicting signals, structured data, and human accountability at the same time.
 
+> **Current focus:** prove that persistent continuity reduces repeated work and improves decision consistency for real users before widening the market.
+
 ## What Nova is building
 
 - **Persistent context** — project goals, decisions, evidence, contradictions, and unresolved questions remain part of the working state.
 - **Tool and research orchestration** — files, research, monitoring, structured data, and specialist workflows are coordinated around the user's objective.
 - **Evidence-aware reasoning** — assumptions, conflicts, and uncertainty stay visible instead of disappearing behind a score.
 - **Human-controlled decisions** — Nova is designed to organize and rank evidence while keeping consequential execution under human control.
+
+## System thesis
+
+```mermaid
+flowchart LR
+    A[Context] --> B[Evidence]
+    B --> C[Intelligence]
+    C --> D[Evaluation]
+    D --> E[Human decision]
+    E --> A
+```
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the public system overview and [ROADMAP.md](ROADMAP.md) for the proof-first development sequence.
 
 ## Why finance first
 
@@ -21,13 +36,13 @@ Nova does **not** claim guaranteed returns, proven alpha, autonomous trading, or
 
 ## Current stage
 
-The project currently has:
-
-- a defined persistent knowledge architecture;
-- a structured financial/options decision-support framework;
-- a public interactive product walkthrough and founder surface;
-- a source-aware lead and outreach funnel;
-- active work on real-user validation and rigorous evaluation.
+| Layer | Status |
+| --- | --- |
+| Persistent knowledge architecture | **Defined** |
+| Financial/options decision-support framework | **Built** |
+| Public product + founder surface | **Live** |
+| Source-aware lead and outreach funnel | **Live** |
+| Measured real-user validation | **Next** |
 
 The next proof point is measured design-partner validation: does persistent continuity reduce repeated work and improve decision consistency for real users?
 
@@ -39,6 +54,8 @@ Nova is built by **Stephen McIntosh**, a solo founder with a background spanning
 
 - Product / founder site: https://hello-stephen-mcintosh-gu2anp.v2.appdeploy.ai/
 - Contact: stephen@commandnova.com
+- Public architecture: [ARCHITECTURE.md](ARCHITECTURE.md)
+- Public roadmap: [ROADMAP.md](ROADMAP.md)
 
 ## Repository purpose
 

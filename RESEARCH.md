@@ -18,6 +18,7 @@ The near-term research questions are intentionally smaller than the lifetime vis
 6. Can a counterpart learn when **not** to interrupt?
 7. Do users value the persistent state strongly enough to return?
 8. Can the state remain inspectable, correctable, deletable and portable enough to earn trust?
+9. Can Nova offload avoidable coordination without weakening knowledge or skills the person actually wants to retain?
 
 ## Differentiation to test
 
@@ -65,6 +66,42 @@ A counterpart should optimize toward:
 It should not primarily optimize for session length, notification volume, emotional dependency, surveillance, lock-in or autonomous action beyond explicit authority.
 
 > **More intelligence should create more human life, not merely more activity.**
+
+## Do not confuse offloading with augmentation
+
+Research on AI-assisted learning and cognitive offloading points in both useful and cautionary directions. External support can save limited working-memory capacity and support higher-order work, but assistance can also reduce the effort required for durable learning when it simply supplies answers.
+
+Nova therefore needs to distinguish what the human wants to **offload** from what the human wants to **learn**.
+
+- Offload reminders, context reconstruction, clerical retrieval and avoidable coordination.
+- Preserve useful cognitive effort for concepts, judgment, reasoning and skills the person wants to own.
+- When the goal is learning, prefer questioning, explanation, retrieval practice and graduated assistance over immediate answer substitution.
+- Evaluate whether the person can increasingly understand or perform—not only whether Nova completed the task.
+- Let intent matter: **handle this**, **teach me this**, and **help me do it myself** are different modes.
+
+**Nova should expand human capability, not quietly replace it.**
+
+## Memory quality is more than recall
+
+Long-term-memory benchmarks show that sustained interaction requires more than storing transcripts. Useful counterpart memory must handle:
+
+- information extraction,
+- multi-session reasoning,
+- temporal correctness,
+- knowledge updates and corrections,
+- appropriate abstention,
+- relevance of resurfacing,
+- user correction burden.
+
+Proactive-memory research also makes intervention quality a separate problem. A counterpart that remembers correctly but interrupts badly is still failing.
+
+Evaluation should therefore include interruption cost and useful-progress gain—not merely retrieval accuracy.
+
+## Companionship and trust
+
+Memory and reciprocal interaction can increase perceived continuity, disclosure and trust in social chatbots. That can create real value, including emotional support, but it also raises the stakes of product design.
+
+Nova should not exploit attachment as a retention mechanic. Trust should increase the user's control, capability and real-world life—not become a reason to maximize dependence.
 
 ## Prior-art and IP caution
 

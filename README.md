@@ -74,7 +74,7 @@ flowchart LR
     E <--> A
 ```
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for the public system thesis and [ROADMAP.md](ROADMAP.md) for the proof-first path from today's continuity experiment toward a broader counterpart.
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the public system thesis, [ROADMAP.md](ROADMAP.md) for the proof-first path, and [RESEARCH.md](RESEARCH.md) for Nova's research, differentiation and prior-art position.
 
 ## What exists today
 
@@ -112,6 +112,7 @@ That path is nontraditional for an AI founder. It is also closely tied to the pr
 - Contact: stephen@commandnova.com
 - Public architecture: [ARCHITECTURE.md](ARCHITECTURE.md)
 - Public roadmap: [ROADMAP.md](ROADMAP.md)
+- Research & differentiation: [RESEARCH.md](RESEARCH.md)
 
 ## Repository purpose
 

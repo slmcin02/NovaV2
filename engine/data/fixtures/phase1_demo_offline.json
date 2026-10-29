@@ -12,7 +12,7 @@
       "severe_dilution_event_flag": false,
       "severe_iv_trap_flag": false,
       "spread_pct_mid": 0.04,
-      "strike": 25
+      "strike": 25.0
     },
     {
       "delta": 0.45,
@@ -26,7 +26,7 @@
       "severe_dilution_event_flag": false,
       "severe_iv_trap_flag": false,
       "spread_pct_mid": 0.04,
-      "strike": 25
+      "strike": 25.0
     },
     {
       "delta": 0.45,
@@ -40,7 +40,7 @@
       "severe_dilution_event_flag": false,
       "severe_iv_trap_flag": false,
       "spread_pct_mid": 0.04,
-      "strike": 25
+      "strike": 25.0
     }
   ],
   "data_mode": "offline_fixture",

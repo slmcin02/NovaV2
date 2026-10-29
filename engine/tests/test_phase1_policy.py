@@ -14,6 +14,8 @@ GOOD_OPTION = {
     "right": "C",
     "premium": 1.45,
     "quote_quality_flag": True,
+    "severe_dilution_event_flag": False,
+    "severe_iv_trap_flag": False,
     "spread_pct_mid": 0.04,
     "oi": 2300,
     "option_volume": 850,
@@ -245,3 +247,22 @@ def test_sub_one_high_score_remains_monitor_if_liquidity_is_weak():
         veto_penalty_norm=0,
     )
     assert result["action"] == "monitor"
+
+
+@pytest.mark.parametrize("field", ["severe_dilution_event_flag", "severe_iv_trap_flag"])
+@pytest.mark.parametrize("invalid", [None, 0, "false", []])
+def test_missing_critical_event_evidence_fails_closed(field, invalid):
+    option = dict(GOOD_OPTION)
+    option[field] = invalid
+    evaluation = evaluate_contract(option, GOOD_FEATURES, "gamma_squeeze")
+    assert evaluation["status"] == "veto"
+    assert f"{field}_unverified" in evaluation["reason_codes"]
+
+
+@pytest.mark.parametrize("field", ["severe_dilution_event_flag", "severe_iv_trap_flag"])
+def test_missing_critical_event_field_fails_closed(field):
+    option = dict(GOOD_OPTION)
+    del option[field]
+    evaluation = evaluate_contract(option, GOOD_FEATURES, "gamma_squeeze")
+    assert evaluation["status"] == "veto"
+    assert f"{field}_unverified" in evaluation["reason_codes"]

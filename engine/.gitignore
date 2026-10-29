@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.duckdb
+*.sqlite3
+data/lake/
+data/phase1/
+data/memory/
+data/calibration/
+*.log
+*.egg-info/

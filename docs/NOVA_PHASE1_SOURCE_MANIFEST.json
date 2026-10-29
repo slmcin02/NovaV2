@@ -1,0 +1,471 @@
+{
+  "schema": "nova_phase1_copy_v1",
+  "origin": "original zip package plus tested offline/phase1 changes",
+  "source_archive_sha256": "faf72a51d192ba95e880dafe6183bbb36d4f46c17329388f82b97f29c76d56a5",
+  "source_file_count": 92,
+  "source_file_bytes": 237339,
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "fc5cede5f733eeaea1812736a2678a26e15f5f754bfb46659d6199670af5cd56",
+      "bytes": 223
+    },
+    {
+      "path": "BUILD_STATUS.md",
+      "sha256": "272a2a44403c52517291565689f36ac5abb374a0161218a2880a9cdf95026bd7",
+      "bytes": 1013
+    },
+    {
+      "path": "DEEP_AUDIT_REPORT_v8.md",
+      "sha256": "fe0f5cf6cf915114bf5845fe7146c81b95d27a261ab1425c6f1a42bce5f2855a",
+      "bytes": 2263
+    },
+    {
+      "path": "EDGE_ENHANCEMENTS_v5.md",
+      "sha256": "0e180467a0a64cf942f49020cd1885b7efd2b8de856f6bedc1487fc2f0a034af",
+      "bytes": 797
+    },
+    {
+      "path": "FREE_SOURCE_BUILD_REPORT_v9.md",
+      "sha256": "66e1b764b0671c19a7be3dac23de5bc7dcb22a424927dc0d0d8bbbad1ba6e581",
+      "bytes": 2000
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "55675fe93425a88c8e3db6ff9295fd9ee5872540a017e941f5e39b30dfdb8ab3",
+      "bytes": 762
+    },
+    {
+      "path": "README.md",
+      "sha256": "37f2fc0975bdd9f58ac2947412c1827baf88ff960622b05104884f793af97409",
+      "bytes": 4235
+    },
+    {
+      "path": "requirements-py314.txt",
+      "sha256": "7a5cad8b5b1b563926d9a62e50cca41c718702cc61d211efd089151a7f6bee26",
+      "bytes": 197
+    },
+    {
+      "path": "REVIEWED_SOURCES.md",
+      "sha256": "0c2fbfac7abeb715689ac5ab48cc8d2099c45b59d9e9388a4bcace86a62b1c1f",
+      "bytes": 1060
+    },
+    {
+      "path": "VERIFICATION_REPORT.md",
+      "sha256": "9d6492c07cae9ed2d391ac587088668a6a81dee6e81f5346f1fe58e2e0072ed4",
+      "bytes": 931
+    },
+    {
+      "path": "config/app.yaml",
+      "sha256": "302d47ebb46c6abadeb900e91d637bffd1f5f0d4b94f5497c4aab3dd34091932",
+      "bytes": 2250
+    },
+    {
+      "path": "config/universe_seed.txt",
+      "sha256": "45c7e71d2942fa72a2398eb00fcc2d6718b5bb295a3e95bef50bd87f817e178e",
+      "bytes": 237
+    },
+    {
+      "path": "nova/cli.py",
+      "sha256": "270d27ba6efeb2609d3111a78acec1e83f0717c31acd8103bdb2988c97f1ccf0",
+      "bytes": 30356
+    },
+    {
+      "path": "nova/config.py",
+      "sha256": "aa0f022fb14a97dc4a35fd312f6cf3f2c8911fbeef9b1a6a73e264cc519022e4",
+      "bytes": 2374
+    },
+    {
+      "path": "nova/models.py",
+      "sha256": "469c24b3d8b93f1123163745f30a9236f4b72acb84d9f0140c5e3e30ad6cf850",
+      "bytes": 2034
+    },
+    {
+      "path": "nova/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "scripts/backup_to_drive.ps1",
+      "sha256": "f74dffb4afda077225ac1140d63c2aea2a3d803ba3a9606f462a03c1c985310a",
+      "bytes": 202
+    },
+    {
+      "path": "scripts/compact_retention.ps1",
+      "sha256": "7a6458af8a2c6f5a49e440654ada48293411dfbebc094291b4a72ac4c5f16171",
+      "bytes": 74
+    },
+    {
+      "path": "scripts/run_all.ps1",
+      "sha256": "4ab0a7ef281413eb16fade177e58c2279274a899ac80001315bb57418410246e",
+      "bytes": 296
+    },
+    {
+      "path": "scripts/run_backtest.ps1",
+      "sha256": "eb4b152fc5a2de08b4350e706e9d25c5b443286b096bda70a3c06d4ee3b5e445",
+      "bytes": 116
+    },
+    {
+      "path": "scripts/run_scan.ps1",
+      "sha256": "027afc301f0cae26a1e7974d598b522e2eaafb9b5394d1f3b3bbaf962486a8c0",
+      "bytes": 91
+    },
+    {
+      "path": "scripts/setup_windows.ps1",
+      "sha256": "af37fc39bb00bc6f9ab6b18cd7c1fa31397d16158b1f7b398c0defbfe67dd5a2",
+      "bytes": 204
+    },
+    {
+      "path": "sql/schema.sql",
+      "sha256": "1185c6f2c394f0c3d056ffd58a862a25878d997e17bdf4b689e1d137e2c0b18c",
+      "bytes": 4864
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "abd4b522c78d411cf0aedf627e64e470d1218ffaa231743c3d3a3dcefbc7303b",
+      "bytes": 179
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "sha256": "766fa26189c9e2c7ebb2816e33a8fcd54addf26f523e0a754a3e144a230f9977",
+      "bytes": 1928
+    },
+    {
+      "path": "tests/test_end_to_end.py",
+      "sha256": "0dd708f4becb0d8f8632878247cf6f21668c715b0277ed72f3f0efb5b553d81d",
+      "bytes": 1961
+    },
+    {
+      "path": "tests/test_execution_quality.py",
+      "sha256": "ed8240500ffe7c704dcbc7d58cfdf8a21329f8d905b4556430fb97fae5685adb",
+      "bytes": 819
+    },
+    {
+      "path": "tests/test_free_sources.py",
+      "sha256": "fd226fffab3c3536164dfc86cb183f5583023dee520fba3b56a24b446f07cf77",
+      "bytes": 1286
+    },
+    {
+      "path": "tests/test_market.py",
+      "sha256": "c988b24c976a254542c37ca85daff91b5c1f1431e58f046b73b423772927b8d8",
+      "bytes": 501
+    },
+    {
+      "path": "tests/test_market_ops.py",
+      "sha256": "c8ff314b8f98d5ada6cbf6d23fd464764e327e90c78a4606c7c1c6f9ddf9ae40",
+      "bytes": 597
+    },
+    {
+      "path": "tests/test_memory.py",
+      "sha256": "d899a24df8535c703235acf960785e458f147828d4a3d29b61afe32bf4783a30",
+      "bytes": 395
+    },
+    {
+      "path": "tests/test_paper.py",
+      "sha256": "630616f797011b215ac6ce10a666b11987d167eb9ee75650b95437b4da8f6e5d",
+      "bytes": 2007
+    },
+    {
+      "path": "tests/test_phase1_cli.py",
+      "sha256": "bd3f290ce9ac880d5c21ba2806f6ba0798bb5d8440d5a4c338b7be5658644b40",
+      "bytes": 2097
+    },
+    {
+      "path": "tests/test_phase1_policy.py",
+      "sha256": "96c2d7f6474b9e6e772b332313428155789121b2046f7044b8e44b7226258189",
+      "bytes": 6735
+    },
+    {
+      "path": "tests/test_preflight.py",
+      "sha256": "cae19d3fb71f3313f932d5d6a79041302e459f1fca147bb5226522d604f69d06",
+      "bytes": 291
+    },
+    {
+      "path": "tests/test_probability.py",
+      "sha256": "ed3773d7303c41ec47c437dbe57067fc13a2ece45f3010881f38c945c72d1e0d",
+      "bytes": 919
+    },
+    {
+      "path": "tests/test_providers.py",
+      "sha256": "4a039dddbacb65efdd3100f35621ac4fb262c9ada8635c7d67ff6732a901606a",
+      "bytes": 594
+    },
+    {
+      "path": "tests/test_replay_offline_isolation.py",
+      "sha256": "6cdb83af1c0ff8a557fea89ac100ac876d8be8c9c946be5aebb9969062357bf4",
+      "bytes": 2650
+    },
+    {
+      "path": "tests/test_risk.py",
+      "sha256": "5aad9b8c2af5d35a65541e91ef6d4e9e533ff886861f124e490494f9058edf7f",
+      "bytes": 1026
+    },
+    {
+      "path": "tests/test_score_optimizer.py",
+      "sha256": "b8fc33c73c462bf37e3feed950a736b1ad9084a8748ef48862041ff31408b38f",
+      "bytes": 2812
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "sha256": "82c362f45e193575c641d300537b2e1cb8a8173c57dcd64999cdf65f89a6637e",
+      "bytes": 1578
+    },
+    {
+      "path": "tests/test_signal_quality.py",
+      "sha256": "85a3ebf69cd4c876617c4beb6db8d39b40469e24757011493fe82d68e1a964f2",
+      "bytes": 716
+    },
+    {
+      "path": "nova/data/cftc_adapter.py",
+      "sha256": "665bd2d2b7cab30f2157ff0f993a756db02ca3e0c6e4d34027da10188bbb274f",
+      "bytes": 797
+    },
+    {
+      "path": "nova/data/clinicaltrials_adapter.py",
+      "sha256": "fae10b99200e37ac5eca125fbd26ca6bd6ba1021301de6f99e623c7ea7ed8316",
+      "bytes": 1003
+    },
+    {
+      "path": "nova/data/fda_calendar_adapter.py",
+      "sha256": "c4c4391ade86200d31446c6c353364c482247d20e33ebafad07a6b91299e6794",
+      "bytes": 931
+    },
+    {
+      "path": "nova/data/finra_adapter.py",
+      "sha256": "5be96029eb0b4c9e7623cdcb07df1ba811b8b590e5fe04df9e0c2828a42a0e1e",
+      "bytes": 1613
+    },
+    {
+      "path": "nova/data/fred_adapter.py",
+      "sha256": "ad97c869cb82264b85add4bb131013f6d56dac94491af6764b9bb3e998a9764b",
+      "bytes": 1549
+    },
+    {
+      "path": "nova/data/nasdaq_halts_adapter.py",
+      "sha256": "3e57911b938e700bee3d145204e4fff8cc1660a5961b2691ca8b700deb271525",
+      "bytes": 1855
+    },
+    {
+      "path": "nova/data/occ_adapter.py",
+      "sha256": "4d7154445cd3f08ea8a4abefd7b1627009c39861cf67f2bcc1bc65c110387294",
+      "bytes": 1996
+    },
+    {
+      "path": "nova/data/polygon_adapter.py",
+      "sha256": "a3553232a3867eb77d1df4afabec1dd3d58bc6013ae65eda72538a5f78cabcef",
+      "bytes": 5245
+    },
+    {
+      "path": "nova/data/provider_router.py",
+      "sha256": "27f676518e534c671eeb663f96710a394fb4c7f54425c7a2261a652aec1daa69",
+      "bytes": 3327
+    },
+    {
+      "path": "nova/data/replay_adapter.py",
+      "sha256": "a758dbabfae9582ede5446b7a19b03c25dcdce44638ed6e6c302dd699a9cee89",
+      "bytes": 4255
+    },
+    {
+      "path": "nova/data/sec_adapter.py",
+      "sha256": "da1e03d6ccbeb48e82852c493e0006b7467adc7bf06612ac049d47339ddb5f67",
+      "bytes": 2291
+    },
+    {
+      "path": "nova/data/sec_ftd_adapter.py",
+      "sha256": "e829c8239c91f1f4c00061de7700d2538d292d5bd36aa1b118bc076df867f1ae",
+      "bytes": 2894
+    },
+    {
+      "path": "nova/data/theta_adapter.py",
+      "sha256": "2d35c4185be012edb1ed35c634b18c371ffc1481c43a2215d28b6762bba5e539",
+      "bytes": 4478
+    },
+    {
+      "path": "nova/data/yfinance_adapter.py",
+      "sha256": "3dad177a3f2b0be6110f5ffc2b4368e1134069a6ad87baf25617218fba6f01e5",
+      "bytes": 4300
+    },
+    {
+      "path": "nova/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "nova/engine/alerts.py",
+      "sha256": "82e8e60f78d33449c2ec38d7fb0a7229b9e08b5125885179be3bd51f375dd16d",
+      "bytes": 869
+    },
+    {
+      "path": "nova/engine/backtest.py",
+      "sha256": "d218b301d19cd96c8a785d0d0ad2777213012528fb8a57b11f9c11f36c281b49",
+      "bytes": 2119
+    },
+    {
+      "path": "nova/engine/calibration.py",
+      "sha256": "6ef147c9bd2d62006a8bf372307414f68f9fd4fadc60c2b41e3424e932459628",
+      "bytes": 3413
+    },
+    {
+      "path": "nova/engine/cohorts.py",
+      "sha256": "5b139780eb6f2fafa49df2892dbbd774fca2e698af2df678cec451b9eb3b8183",
+      "bytes": 2042
+    },
+    {
+      "path": "nova/engine/execution_quality.py",
+      "sha256": "a30b434917c20846a8d99462ebe28341b8965de47c8be641e240c72065304ef2",
+      "bytes": 1885
+    },
+    {
+      "path": "nova/engine/features.py",
+      "sha256": "b3a0a7904354e4f6c15248dc25a8d69d319cc3ac2f4f93f8d4e9cce8ddba0e44",
+      "bytes": 2581
+    },
+    {
+      "path": "nova/engine/learner.py",
+      "sha256": "405761661f6e2a70c54af3d96e4e7fa4a3c9c7e834adb076c531f8bc9b36d625",
+      "bytes": 3375
+    },
+    {
+      "path": "nova/engine/market_ops.py",
+      "sha256": "4bd9531a76e7187de7c6842d6b0e9c571ad4c3ba975548c589d7bf12ef4ea4a3",
+      "bytes": 5958
+    },
+    {
+      "path": "nova/engine/paper.py",
+      "sha256": "0d7086d4f7c95e78c38676eda6a4f9ac3ec2f9ef38075322a6f81d303517f60e",
+      "bytes": 6592
+    },
+    {
+      "path": "nova/engine/preflight.py",
+      "sha256": "c885e9dc746c18cb32a50365ad9c8ed19d78a1cc0988e3925c140e53d8f19fb1",
+      "bytes": 2926
+    },
+    {
+      "path": "nova/engine/probability.py",
+      "sha256": "9d2f60b745a9abc9ba2967ba97877197a00134a6f28eeebe6e81067ef1a959a7",
+      "bytes": 1769
+    },
+    {
+      "path": "nova/engine/retention.py",
+      "sha256": "dee6f5911ac8bbfaadc526651a7f65ebbf339549884e6a6078e9315a6273b8ba",
+      "bytes": 1051
+    },
+    {
+      "path": "nova/engine/risk.py",
+      "sha256": "f74e1e11fbd0d1dfe8fbe2bfa664a25f3b578cb655f8e9aaff871d56a5a5cb1b",
+      "bytes": 1497
+    },
+    {
+      "path": "nova/engine/score_optimizer.py",
+      "sha256": "7f437c1360aef868c557a4fac81928558820b3c114259f0391ded1ac434f7098",
+      "bytes": 6201
+    },
+    {
+      "path": "nova/engine/scoring.py",
+      "sha256": "2eb852af96bd1fc277021796e69e291c8b6f6f4228dda0dd2e343cb938432c3e",
+      "bytes": 5672
+    },
+    {
+      "path": "nova/engine/session.py",
+      "sha256": "f98b5c0443e85d3415d141fba202d850ac3cd6232e5b8778a946464f29d51787",
+      "bytes": 1006
+    },
+    {
+      "path": "nova/engine/signal_quality.py",
+      "sha256": "1b71fea9712997b657369896a7ccb958b53140473fe664379516d455d8acc832",
+      "bytes": 2791
+    },
+    {
+      "path": "nova/engine/strategies.py",
+      "sha256": "08227ca84b1c9a63826f18c9386d3012ecba07d7adbac1e2808abd9c187756d2",
+      "bytes": 889
+    },
+    {
+      "path": "nova/engine/universe.py",
+      "sha256": "dd3e76b19f04282155a094bb726faedf8b30b7f6af206b797f236757ea6fde56",
+      "bytes": 1688
+    },
+    {
+      "path": "nova/engine/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "nova/llm/copilot.py",
+      "sha256": "254195f9e179a91e1a60d9402a7b00968fa952c8d96caae4f89f1f92f7844898",
+      "bytes": 1224
+    },
+    {
+      "path": "nova/llm/vector_memory.py",
+      "sha256": "914c8f523104b9b86c694b955a3e3a82ac7d53b1a5c471e59328ffc2ac2be0d2",
+      "bytes": 1821
+    },
+    {
+      "path": "nova/llm/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "nova/phase1/cli.py",
+      "sha256": "90c36723ec001cdf85010e77189ee6a31e51d423c5dab73ed40ab0e34a89ad6f",
+      "bytes": 2716
+    },
+    {
+      "path": "nova/phase1/policy.py",
+      "sha256": "ea9f4a200654ad9d700bf8a9ff683a65c0038c597f1448efc0db359cd3724556",
+      "bytes": 17935
+    },
+    {
+      "path": "nova/phase1/__init__.py",
+      "sha256": "65f55e7e8531683d933569411080c464d86291815f7824c4df7ec9946cdd6819",
+      "bytes": 66
+    },
+    {
+      "path": "nova/storage/duckdb_store.py",
+      "sha256": "1239d3070a2e507e69e54dd7821c3ab7dab8478fe0bc0ebd7c1e5fe8b01c8c8c",
+      "bytes": 10541
+    },
+    {
+      "path": "nova/storage/parquet_lake.py",
+      "sha256": "d88f74a76417ab254bacd729bdf5c354d80e46ddd5be71cc381d6cc4862e56e5",
+      "bytes": 3317
+    },
+    {
+      "path": "nova/storage/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "nova/utils/market.py",
+      "sha256": "ca3813e595677050a6d4c7506f6dd816497f10d9a5553cd8c02b1ee9737281d8",
+      "bytes": 1639
+    },
+    {
+      "path": "nova/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "data/fixtures/phase1_demo_offline.json",
+      "sha256": "42b5fb1c81b92000f901037c87baa8ac77a316add0ffcc0b4f82c88e81b262c8",
+      "bytes": 2306
+    },
+    {
+      "path": "data/fixtures/sample_option_scan.csv",
+      "sha256": "fa5428080632e8e5b9938a9911cf4c7344ca7f8e6a506c34e1f462ad0ade97b4",
+      "bytes": 644
+    },
+    {
+      "path": "data/fixtures/sample_option_scan_expanded.csv",
+      "sha256": "d32ef552e9d909c304684029bd2c6ac8f9bbca9715ded80dcfd270e5a5c36189",
+      "bytes": 18184
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "a0e5e33ff1748c7a8d768b4ac7c5ff76f06b3056a5003cb6248be87dbf5d82e4",
+      "bytes": 418
+    }
+  ],
+  "source_spec_count": 5,
+  "excluded": "runtime DB/lake/output/cache, secrets and provider credentials"
+}

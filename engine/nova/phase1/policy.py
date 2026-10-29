@@ -245,8 +245,12 @@ def evaluate_contract(
         reasons.append("too_high_dte")
     if option.get("severe_dilution_event_flag") is True:
         reasons.append("severe_dilution_event")
+    elif option.get("severe_dilution_event_flag") is not False:
+        reasons.append("severe_dilution_event_flag_unverified")
     if option.get("severe_iv_trap_flag") is True:
         reasons.append("severe_iv_trap")
+    elif option.get("severe_iv_trap_flag") is not False:
+        reasons.append("severe_iv_trap_flag_unverified")
     if reasons:
         return {"status": "veto", "option_symbol": symbol, "reason_codes": reasons}
 

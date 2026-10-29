@@ -1,0 +1,43 @@
+name: Nova Phase 1 - Windows Python 3.14
+
+on:
+  pull_request:
+    paths:
+      - "engine/**"
+      - "docs/source_spec/**"
+      - ".github/workflows/nova-phase1-ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: nova-phase1-windows-py314
+  cancel-in-progress: true
+
+jobs:
+  calls-only-offline:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: engine
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Python 3.14.7
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14.7"
+      - name: Install offline-test dependencies
+        run: python -m pip install --disable-pip-version-check -e . pytest ruff
+      - name: Compile source
+        run: python -m compileall -q nova
+      - name: Run complete engine suite
+        run: python -m pytest -q tests
+      - name: Lint safety and phase-1 implementation
+        run: python -m ruff check nova/phase1 tests/test_phase1_policy.py tests/test_phase1_cli.py tests/test_replay_offline_isolation.py
+      - name: Check formatting
+        run: python -m ruff format --check nova/phase1 tests/test_phase1_policy.py tests/test_phase1_cli.py tests/test_replay_offline_isolation.py
+      - name: Dependency consistency
+        run: python -m pip check
